@@ -10,7 +10,7 @@ The use case for this task is as bellow:
 4. when a player receives a message should send back a new message that contains the previous message concatenated with the message counter that this player sent (additional info: terminate the program after the "initiator" received 10 messages. the counter should be per player)
 5. finalize the program (gracefully) after one of the players sent 10 messages (stop condition)
 6. document for every class the responsibilities it has
-7. additional challenge: have every player in a separate JAVA process. What you use for communication is your choice)
+7. additional challenge: each player need to be in a separate JAVA process (not thread). What you use for communication is your choice.
 
 Please deliver a maven project with the source code so the jar can be built.
 Please provide a shell script to start the program.
